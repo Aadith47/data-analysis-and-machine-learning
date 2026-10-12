@@ -1,45 +1,50 @@
-# Data Science & Machine Learning
+# Data Science: EDA & Machine Learning
 
-A collection of Python projects focused on **Exploratory Data Analysis (EDA), data visualization, and Machine Learning**. This repository documents my hands-on learning, experiments, and implementation of data-driven solutions using real-world datasets.
+A collection of hands-on projects focused on **Exploratory Data Analysis (EDA)** and **Machine Learning**, exploring datasets, identifying meaningful patterns, and developing predictive models through practical experimentation.
 
-## What's Inside?
+## Overview
 
-- **EDA:** Data cleaning, preprocessing, statistical analysis, and pattern discovery.
-- **Data Visualization:** Exploring data through meaningful charts and visualizations.
-- **Machine Learning:** Implementing classification and regression algorithms.
-- **Model Evaluation:** Evaluating model performance using appropriate metrics.
-- **Datasets:** Practical experiments with different datasets to strengthen my Data Science skills.
+This repository serves as a collection of data science projects that demonstrate the process of transforming raw data into meaningful insights and building machine learning models to solve predictive problems.
 
-## Tech Stack
+## Repository Contents
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,numpy,pandas,sklearn" alt="Python, NumPy, Pandas, Scikit-learn" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,matplotlib,mysql" alt="TensorFlow, PyTorch, Matplotlib, MySQL" />
-</p>
+### Exploratory Data Analysis (EDA)
+- Data inspection and quality assessment
+- Data cleaning and preprocessing
+- Handling missing values and duplicate records
+- Statistical analysis and feature exploration
+- Data visualization and pattern identification
+- Extracting insights and identifying relationships between variables
 
-**Libraries:** NumPy · Pandas · Matplotlib · Seaborn · Scikit-learn · TensorFlow · PyTorch
+### Machine Learning
+- Data preprocessing and feature engineering
+- Classification and regression problems
+- Model training and testing
+- Model evaluation and performance analysis
+- Comparing algorithms and interpreting results
 
 ## Repository Structure
 
 ```text
-data-science-machine-learning/
+.
 ├── eda/
-│   ├── dataset_1/
-│   └── dataset_2/
+│   └── ...
 ├── machine-learning/
-│   ├── classification/
-│   └── regression/
-├── datasets/
+│   └── ...
 └── README.md
 ```
 
-*The structure above is a suggested layout; adjust it to match your actual folders.*
+*The directory structure is illustrative and can be adjusted to match the repository.*
 
-## Goal
+## Objectives
 
-To strengthen my Data Science and Machine Learning fundamentals through hands-on projects, continuous experimentation, and practical problem-solving.
+- Develop a strong foundation in data analysis and machine learning.
+- Apply theoretical concepts to practical datasets.
+- Improve analytical thinking and problem-solving skills.
+- Build, evaluate, and refine predictive models.
+- Document experiments and learning progress through reproducible projects.
 
----
+## About
 
-**Learning by exploring data, building models, and improving every day.**
+This repository is an ongoing collection of data science work, documenting practical implementations, analytical findings, and machine learning experiments as I continue developing my skills in the field.
+
