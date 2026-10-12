@@ -1,37 +1,45 @@
-# Data-science
+# Data Science & Machine Learning
 
-My practice repo for learning data science with Python. Right now it's mostly the basics: pandas, numpy, seaborn and matplotlib. I'll add machine learning stuff as I get to it.
+A collection of Python projects focused on **Exploratory Data Analysis (EDA), data visualization, and Machine Learning**. This repository documents my hands-on learning, experiments, and implementation of data-driven solutions using real-world datasets.
 
-Nothing here is polished. It's notebooks and scripts I wrote while learning, so expect some messy bits.
+## What's Inside?
 
-## What's in here
+- **EDA:** Data cleaning, preprocessing, statistical analysis, and pattern discovery.
+- **Data Visualization:** Exploring data through meaningful charts and visualizations.
+- **Machine Learning:** Implementing classification and regression algorithms.
+- **Model Evaluation:** Evaluating model performance using appropriate metrics.
+- **Datasets:** Practical experiments with different datasets to strengthen my Data Science skills.
 
-- **Pandas:** loading data, cleaning it, filtering, groupby
-- **NumPy:** arrays and basic operations
-- **Seaborn / Matplotlib:** plots for exploring data.
-- **Palmer Penguins EDA:** my most complete project so far (details below)
+## Tech Stack
 
-## Palmer Penguins EDA
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,numpy,pandas,sklearn" alt="Python, NumPy, Pandas, Scikit-learn" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,matplotlib,mysql" alt="TensorFlow, PyTorch, Matplotlib, MySQL" />
+</p>
 
-I explored the Palmer Penguins dataset (344 penguins, 3 species) to practice EDA. The main things I found:
+**Libraries:** NumPy · Pandas · Matplotlib · Seaborn · Scikit-learn · TensorFlow · PyTorch
 
-- Flipper length and body mass are strongly correlated (0.87)
-- Gentoo penguins are the heaviest of the three species
-- Males are bigger than females in every species
-- Bill length vs bill depth looks like a weak negative trend overall, but splits into three clear clusters once you color by species
+## Repository Structure
 
-`export_charts.py` saves the charts as separate images.
-
-## Running it
-
+```text
+data-science-machine-learning/
+├── eda/
+│   ├── dataset_1/
+│   └── dataset_2/
+├── machine-learning/
+│   ├── classification/
+│   └── regression/
+├── datasets/
+└── README.md
 ```
-pip install pandas numpy seaborn matplotlib
-python export_charts.py
-```
 
-For the notebooks, install Jupyter and open them the usual way.
+*The structure above is a suggested layout; adjust it to match your actual folders.*
 
+## Goal
 
-## About
+To strengthen my Data Science and Machine Learning fundamentals through hands-on projects, continuous experimentation, and practical problem-solving.
 
-I'm Aadith, an IT graduate focused on data science and AI/ML. Feel free to open an issue or message me on LinkedIn if you spot something wrong or have a suggestion.
+---
+
+**Learning by exploring data, building models, and improving every day.**
