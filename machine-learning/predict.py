@@ -12,3 +12,10 @@ names = ["setosa", "versicolor", "virginica"]
 
 pred = model.predict(df)[0]
 print("Prediction:", names[pred])
+
+
+# sepal length (cm): 5.1
+# sepal width (cm): 3.5
+# petal length (cm): 1.4
+# petal width (cm): 0.2
+# Prediction: setosa
